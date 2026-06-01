@@ -1,6 +1,7 @@
 n=int(input("enter the number:"))
 sum=0
 while(n>0):
-    sum+=n%10
+    r=n%10
+    sum=sum+r
     n=n//10
 print("sum is:",sum)
