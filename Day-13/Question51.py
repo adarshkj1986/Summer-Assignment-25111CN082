@@ -1,0 +1,7 @@
+n=input("enter the elements:")
+arr=n.split()
+print(arr)
+largest=max(arr)
+smallest=min(arr)
+print("largest element is:",largest)
+print("smallest element is:",smallest)
