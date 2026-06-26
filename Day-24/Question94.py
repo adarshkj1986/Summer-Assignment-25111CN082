@@ -1,0 +1,11 @@
+text="aaabbc"
+compressed=""
+count=1
+for i in range(len(text)):
+    if i+1<len(text) and text[i]==text[i+1]:
+        count+=1
+    else:
+        compressed+=text[i]+str(count)
+        count=1
+print("original:",text)
+print("compressed:",compressed)
